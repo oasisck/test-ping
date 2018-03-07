@@ -2,19 +2,20 @@
 ::==============================================================================
 ::            FILE: ping.bat
 ::         VERSION: 1.3
-::           USAGE: Lancer ping.bat autant de fois qu'il y a d'équipement à tester,
-::                  des logs vont se créer à la racine du script
+::           USAGE: Lancer ping.bat autant de fois qu'il y a d'équipement à
+::                  tester, des logs vont se créer à la racine du script
 ::     DESCRIPTION: Permet de tester le réseau d'un client en pinguant depuis le
-::                  serveur vers les postes clients, vers les équipements réseaux,
-::                  vers internet
+::                  serveur vers les postes clients, vers les équipements
+::                  réseaux, vers internet
 ::         OPTIONS: -
 ::    REQUIREMENTS: -
-::            BUGS: Parfois la fenêtre n'affiche pas les commentaires mais le script tourne
-::           NOTES: Fonctionne avec ping.exe en anglais ou en français. A savoir,
-::                  dans la version française du ping.exe, l'affichage du résultat
-::                  est différent quand ms est supérieur ou égal à 1
+::            BUGS: Parfois la fenêtre n'affiche pas les commentaires mais le
+::                  script tourne
+::           NOTES: Fonctionne avec ping.exe en anglais ou en français. A
+::                  savoir, dans la version française du ping.exe, l'affichage
+::                  du résultat est différent quand ms est supérieur ou égal à 1
 ::          AUTHOR: KERBASTARD Clément
-::         COMPANY: FUTUROSOFT
+::         COMPANY: OPTI-IT
 ::         CREATED: 01/06/17
 ::        REVISION: 06/03/17
 ::==============================================================================
@@ -50,7 +51,8 @@ echo "====== %JOUR% %HEURE% ======" >> %LOG%
 
 :: Commande ping avec 1 paquet et 1000ms (1s) d'attente
 :: Si délai dépassé ou hôte introuvable alors "Ne repond pas" dans le log
-:: Si dans le délai mais le résultat supérieur ou égal à la valeur de test en ms alors log
+:: Si dans le délai mais le résultat supérieur ou égal à la valeur de test en ms
+:: alors log.
 :: La mini-boucle se relance toutes les secondes
 :miniloop
 set /a i=i+1
