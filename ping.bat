@@ -2,10 +2,10 @@
 ::==============================================================================
 ::            FILE: ping.bat
 ::         VERSION: 1.3
-::           USAGE: Lancer ping.bat autant de fois qu'il y a d'�quipement � tester,
+::           USAGE: Lancer ping.bat autant de fois qu'il y a d'équipement à tester,
 ::                  des logs vont se créer à la racine du script
 ::     DESCRIPTION: Permet de tester le réseau d'un client en pinguant depuis le
-::                  serveur vers les postes clients, vers les �quipements r�seaux,
+::                  serveur vers les postes clients, vers les équipements réseaux,
 ::                  vers internet
 ::         OPTIONS: -
 ::    REQUIREMENTS: -
