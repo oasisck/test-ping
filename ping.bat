@@ -17,7 +17,7 @@
 ::          AUTHOR: KERBASTARD Clément
 ::         COMPANY: OPTI-IT
 ::         CREATED: 01/06/17
-::        REVISION: 06/03/17
+::        REVISION: 06/03/18
 ::==============================================================================
 
 :: Déclaration des variables IP et MS, à saisir à l'exécution du script
